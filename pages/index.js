@@ -4,6 +4,9 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div> Olá Mundo</div>
+    <div>
+      <h1> This is a test</h1>
+      <p> Lorem ipson</p>
+    </div>
   )
 }
