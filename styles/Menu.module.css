@@ -1,0 +1,17 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.menu ul {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    max-height: 400px;
+    width: 800px;
+}
+
+.menu li {
+    list-style: none;
+}

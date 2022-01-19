@@ -1,0 +1,103 @@
+{
+    "menu":[
+        {
+            "id": 0,
+            "name": "Big Burger",
+            "ingredients":"Pão, hamburguer, maionese, tomate, alface, ovo",
+            "price": "R$ 19,99",
+            "image": "shared/images/0.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 1,
+            "name": "Classic",
+            "ingredients":"Pão, hamburguer, molho da casa, queijo prato",
+            "price": "R$ 16,99",
+            "image": "./1.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 2,
+            "name": "Mega Fantastic",
+            "ingredients":"Pão, hamburguer, maionese, bacon, calabreza, queijo qualho, queijo prato",
+            "price": "R$ 20,99",
+            "image": "2.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 3,
+            "name": "Magnum",
+            "ingredients":"Pão, hamburguer, molho da casa, ovo, picles, cebola",
+            "price": "R$ 21,99",
+            "image": "images/3.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 4,
+            "name": "Hot Peper",
+            "ingredients":"Pão, hamburguer, maionese apimentata, calabreza, queijo qualho",
+            "price": "R$ 19,99",
+            "image": "/images/4.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 5,
+            "name": "Grand Cheff",
+            "ingredients":"Pão, hamburguer, maionese, bacon, ovo, queijo mussarela",
+            "price": "R$ 22,99",
+            "image": "./images/5.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 6,
+            "name": "Fabulous Vegetarian",
+            "ingredients":"Pão, hamburguer de grão de bico, maionese, queijo prato, tomate, cebola roxa",
+            "price": "R$ 18,99",
+            "image": "./images/6.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": true,
+            "vegan": false
+
+        },
+        {
+            "id": 7,
+            "name": "Veg Prime",
+            "ingredients":"Pão, Futuro Burger, maionese vegana, picles, tomate, alface, shimeji",
+            "price": "R$ 19,99",
+            "image": "./images/7.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": true,
+            "vegan": true
+
+        }
+    ],
+    "promotions":[],
+    "comments": [
+        {
+            "commentId": 0,
+            "burguerId":0,
+            "rating":5,
+            "comment": ""
+
+        }
+    ]
+
+}

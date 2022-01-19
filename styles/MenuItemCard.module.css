@@ -1,0 +1,19 @@
+
+.menuItemCard {
+    display: flex;
+    box-shadow: 3px 3px 5px  black;
+    width: 90%;
+    height: 90px;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.menuItemCard h4{
+    margin-left: 10px;
+}
+
+.menuItemCard img{
+    width: 90px;
+    height: 90px;
+}
