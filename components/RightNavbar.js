@@ -35,6 +35,7 @@ class Promotions extends Component{
 
         return(
             <div className={styles.promotions}>
+                {/* https://reactjsexample.com/a-simple-multifunctional-controlled-react-js-carousel-component/ */}
                 <Carousel
                     updateOnItemClick
                     containerProps={{
