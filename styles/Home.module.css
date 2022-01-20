@@ -69,7 +69,7 @@
 .rightSide img{
     position: fixed;
     /* display: block; */
-    top: 200px;
+    top: 180px;
     /* margin-top: auto;
     margin-bottom: auto; */
     z-index: 0;
@@ -109,3 +109,37 @@
 .btn2:hover{
     background-color: rgb(252, 193, 1);
 }
+
+.promotions{
+    margin-top: 120px;
+}
+
+
+.promoCard{
+    background-color: rgba(255, 255, 255, 0.782);
+    display: block;
+    width: 100px;
+    height: 180px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.promoCard h1{
+    font-size: 150%;
+}
+.promoCard h4{
+    text-decoration: line-through;
+    color: red;
+}
+
+.promoCard h3{
+
+    color: green;
+}
+
+.promoCard:hover{
+    background-color: rgba(255, 255, 255, 0.974);
+
+}
+
+

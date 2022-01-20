@@ -89,7 +89,55 @@
 
         }
     ],
-    "promotions":[],
+    "promotions":[
+        {
+            "id": 2,
+            "name": "Mega Fantastic",
+            "ingredients":"Pão, hamburguer, maionese, bacon, calabreza, queijo qualho, queijo prato",
+            "price": "R$ 20,99",
+            "newPrice": "R$ 17,99",
+            "image": "2.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 4,
+            "name": "Hot Peper",
+            "ingredients":"Pão, hamburguer, maionese apimentata, calabreza, queijo qualho",
+            "price": "R$ 19,99",
+            "newPrice": "R$ 17,99",
+            "image": "/images/4.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 5,
+            "name": "Grand Cheff",
+            "ingredients":"Pão, hamburguer, maionese, bacon, ovo, queijo mussarela",
+            "price": "R$ 22,99",
+            "newPrice": "R$ 19,99",
+            "image": "./images/5.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": false,
+            "vegan": false
+
+        },
+        {
+            "id": 7,
+            "name": "Veg Prime",
+            "ingredients":"Pão, Futuro Burger, maionese vegana, picles, tomate, alface, shimeji",
+            "price": "R$ 19,99",
+            "newPrice": "R$ 15,99",
+            "image": "./images/7.jpg",
+            "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+            "vegetarian": true,
+            "vegan": true
+        }
+    ],
     "comments": [
         {
             "commentId": 0,

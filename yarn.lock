@@ -918,6 +918,11 @@
   "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.18.0.tgz"
   "version" "3.18.0"
 
+"core-js@^3.8.1":
+  "integrity" "sha512-vVl8j8ph6tRS3B8qir40H7yw7voy17xL0piAjlbBUsH7WIfzoedL/ZOr1OV9FyZQLWXsayOJyV4tnRyXR85/ag=="
+  "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.20.3.tgz"
+  "version" "3.20.3"
+
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
   "resolved" "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz"
@@ -2722,7 +2727,7 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^17.0.2", "react-dom@17.0.2":
+"react-dom@^16.8 || ^17", "react-dom@^17.0.2", "react-dom@17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -2746,7 +2751,15 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.8.3.tgz"
   "version" "0.8.3"
 
-"react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@17.0.2":
+"react-simply-carousel@^5.1.4":
+  "integrity" "sha512-P5NOX9IUDRgHAsnembmUMrISeBvXs/Vcnn361MohY/r9pamK6eZcBM2H6nmcWIHBSaeD3QP9Sv4nqogPxDHDvg=="
+  "resolved" "https://registry.npmjs.org/react-simply-carousel/-/react-simply-carousel-5.1.4.tgz"
+  "version" "5.1.4"
+  dependencies:
+    "core-js" "^3.8.1"
+    "prop-types" "^15.7.2"
+
+"react@^16.8 || ^17", "react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@>= 16.8.0 || 17.x.x || 18.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
