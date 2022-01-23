@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import React, { Component } from 'react';
+import Image from 'next/image';
 import Carousel from "react-simply-carousel";
 import db from '../shared/db.json'  
 
@@ -31,7 +32,6 @@ class Promotions extends Component{
       };
 
     render(){
-        const list = ["oi", "tudo ", "bem ", "com ", "vc" ]
 
         return(
             <div className={styles.promotions}>
@@ -97,7 +97,7 @@ class Promotions extends Component{
 const RightNavbar = () => {
     return (
         <div className={styles.rightSide}>
-            <img src='/hamb.png' width={350} height={250}></img>
+            <Image src='/hamb.png' width={350} height={250}></Image>
             <nav className={styles.rightNavbar}>
                 <button className={styles.btn2}>Pesquisar</button>
                 <button className={styles.btn1}>Login</button>

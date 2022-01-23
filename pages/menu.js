@@ -2,6 +2,7 @@ import MenuItemCard from '../components/MenuItemCard';
 import db from '../shared/db.json'
 import styles from '../styles/Menu.module.css'
 import React, {Component} from 'react';
+import Image from 'next/image';
 
 
 function MenuItemDescription({hamburger}) {
@@ -10,8 +11,8 @@ function MenuItemDescription({hamburger}) {
         return <div></div>
     } else {
         return (
-            <div>
-                <img src={hamburger.image}></img>
+            <div key={hamburger.id}>
+                <Image src={hamburger.image} width={300} height={300}></Image>
                 <h3>{hamburger.name}</h3>
                 <p>{hamburger.ingredients}</p>
                 <h4>Sobre</h4>
