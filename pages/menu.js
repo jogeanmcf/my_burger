@@ -41,7 +41,7 @@ class Menu extends Component {
         return (
             <div className={styles.menu}>
                 <ul>
-                {this.state.menuItens.map((item)=><li> <MenuItemCard hamburger={item} onClick={()=> this.myClick(item)}/></li>)}
+                {this.state.menuItens.map((item)=><li> <MenuItemCard hamburger={item} key={item.id} onClick={()=> this.myClick(item)}/></li>)}
                 </ul>
                 <MenuItemDescription hamburger={this.state.selectedHamburger}/>
 

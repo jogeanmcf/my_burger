@@ -94,14 +94,10 @@ class Promotions extends Component{
 
 
 
-const RightNavbar = () => {
+const RightHomeSide = () => {
     return (
         <div className={styles.rightSide}>
             <Image src='/hamb.png' width={350} height={250}></Image>
-            <nav className={styles.rightNavbar}>
-                <button className={styles.btn2}>Pesquisar</button>
-                <button className={styles.btn1}>Login</button>
-            </nav>
             <div className={styles.promotions}>
                 <Promotions/>
             </div>
@@ -110,4 +106,4 @@ const RightNavbar = () => {
     );
 }
 
-export default RightNavbar;
+export default RightHomeSide;

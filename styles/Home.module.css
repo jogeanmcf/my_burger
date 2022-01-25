@@ -1,93 +1,53 @@
 /* @import url("app.css"); */
-
-.homePage{
+.navbar{
+    position: absolute;
     display: flex;
-    flex-direction: row;
-}
-
-.leftSide{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100vh;
-    float: left;
-    padding: 0px 40px 0px 40px;
-}
-
-.leftSide h1{
-    font-size: 300%;
-}
-
-.leftSide button{
-    background-color: rgb(255, 208, 20);
-    color: white;
-    padding: 20px;
-    font-size: 150%;
-    font-weight: bold;
-    margin-top: 40px;
-    border: none;
-}
-
-.leftSide button:hover{
-    background-color: rgb(252, 193, 1);
-}
-
-.leftNavbar{
-    display: flex;
+    background-color: transparent;
+    width: 100%;
     height: 90px;
-    align-items: center;
+    
+
 }
-.leftNavbar ul{
-   text-align: left;
-   justify-content: center;
-}
-.leftNavbar li{
-    background-color: white;
-    list-style: none;
-    display: inline;
-    margin: 90px 20px 20px 20px;
-    font-weight: bold;
-}
-.leftNavbar a{
+
+.navbar a{
     text-decoration: none;
     color: black;
 }
-.leftNavbar a:hover{
+.navbar a:hover{
     color: rgb(255, 208, 20);
 }
 
-.rightSide{
-    background-color: rgb(255, 208, 20);
-    display: flex;
-    flex-direction: column;
+
+.navbar ul{
+    list-style-type:none;
+    display:flex;
+
+    padding-top: 20px ;
+ }
+
+ .navbar ul li{
+
+    display: list-item;
+    *display: inline;
+    *zoom: 1;
+    list-style: none;
+    margin-right: 40px;
+    font-weight: bold;
+}
+.navbar div {
+    display: flex;  
     width: 50%;
-    height: 100vh;
+    margin-left: auto;
+    justify-content:right;
+    padding-right: 20px ;
+}
+.navbar button {
     float: right;
-    
-}
-.rightSide img{
-    position: fixed;
-    /* display: block; */
-    top: 180px;
-    /* margin-top: auto;
-    margin-bottom: auto; */
-    z-index: 0;
-    
-}
-.rightSide nav{
-    text-align: end;
-    
-
-}
-
-.rightNavbar button {
     margin: 20px;
     padding: 20px;
     font-weight: bold;
     border: none;
-    
-
+   
     
 }
 
@@ -109,6 +69,63 @@
 .btn2:hover{
     background-color: rgb(252, 193, 1);
 }
+
+
+.homePage{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSide{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding: 150px 40px 0px 40px;
+}
+
+.leftSide h1{
+    font-size: 300%;
+}
+
+.leftSide button{
+    background-color: rgb(255, 208, 20);
+    color: white;
+    padding: 20px;
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 40px;
+    border: none;
+}
+
+.leftSide button:hover{
+    background-color: rgb(252, 193, 1);
+}
+
+
+
+.rightSide{
+    background-color: rgb(255, 208, 20);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    float: right;
+    padding: 150px 40px 0px 40px;
+    
+}
+.rightSide img{
+    position: fixed;
+    /* display: block; */
+    top: 180px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    z-index: 0;
+    
+}
+
 
 .promotions{
     margin-top: 120px;
