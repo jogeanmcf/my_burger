@@ -12,7 +12,7 @@ function MenuItemDescription({hamburger}) {
     } else {
         return (
             <div key={hamburger.id}>
-                <Image src={hamburger.image} width={300} height={300}></Image>
+                <Image src={hamburger.image} width={300} height={300} alt=''></Image>
                 <h3>{hamburger.name}</h3>
                 <p>{hamburger.ingredients}</p>
                 <h4>Sobre</h4>
@@ -40,10 +40,10 @@ class Menu extends Component {
     render(){
         return (
             <div className={styles.menu}>
-                <ul>
-                {this.state.menuItens.map((item)=><li> <MenuItemCard hamburger={item} key={item.id} onClick={()=> this.myClick(item)}/></li>)}
-                </ul>
-                <MenuItemDescription hamburger={this.state.selectedHamburger}/>
+                
+                {this.state.menuItens.map((item)=> <MenuItemCard hamburger={item} key={item.id.toString()} onClick={()=> this.myClick(item)}/>)}
+                
+                <MenuItemDescription hamburger={this.state.selectedHamburger} key={item.id.toString()}/>
 
             </div>
         );

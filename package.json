@@ -2,6 +2,12 @@
   "name": "my_burger",
   "version": "0.1.0",
   "private": true,
+   
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -19,4 +25,5 @@
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   }
+  
 }

@@ -84,7 +84,7 @@ class Promotions extends Component{
                 >
                     
                     
-                    {this.state.promotions.map((item) => <PromoCard promoItem={item}/>)}
+                    {this.state.promotions.map((item) => <PromoCard promoItem={item} key={item.id.toString()}/>)}
                 
                 </Carousel>
             </div>
@@ -97,7 +97,7 @@ class Promotions extends Component{
 const RightHomeSide = () => {
     return (
         <div className={styles.rightSide}>
-            <Image src='/hamb.png' width={350} height={250}></Image>
+            <Image src='/hamb.png' width={350} height={250} alt=''></Image>
             <div className={styles.promotions}>
                 <Promotions/>
             </div>
