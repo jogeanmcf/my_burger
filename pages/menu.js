@@ -2,26 +2,8 @@ import MenuItemCard from '../components/MenuItemCard';
 import db from '../shared/db.json'
 import styles from '../styles/Menu.module.css'
 import React, {Component} from 'react';
-import Image from 'next/image';
+import MenuItemDescription from '../components/MenuItemDescription'
 
-
-function MenuItemDescription({hamburger}) {
-    
-    if(hamburger==null) {
-        return <div></div>
-    } else {
-        return (
-            <div key={hamburger.id}>
-                <Image src={hamburger.image} width={300} height={300} alt=''></Image>
-                <h3>{hamburger.name}</h3>
-                <p>{hamburger.ingredients}</p>
-                <h4>Sobre</h4>
-                <p>{hamburger.about}</p>
-            </div>
-        );
-    }
-    
-}
 
 class Menu extends Component {
     constructor(props){
@@ -40,11 +22,12 @@ class Menu extends Component {
     render(){
         return (
             <div className={styles.menu}>
-                
+                <div className={styles.allItens}>
                 {this.state.menuItens.map((item)=> <MenuItemCard hamburger={item} key={item.id.toString()} onClick={()=> this.myClick(item)}/>)}
-                
-                <MenuItemDescription hamburger={this.state.selectedHamburger} key={item.id.toString()}/>
-
+                </div>  
+                <div className={styles.itemDescription}>
+                <MenuItemDescription hamburger={this.state.selectedHamburger}/>
+                </div>
             </div>
         );
     }
