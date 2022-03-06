@@ -1,5 +1,5 @@
 import MenuItemCard from '../components/MenuItemCard';
-import db from '../shared/db.json'
+import db from '../public/db.json'
 import styles from '../styles/Menu.module.css'
 import React, {Component} from 'react';
 import MenuItemDescription from '../components/MenuItemDescription'
@@ -25,9 +25,9 @@ class Menu extends Component {
                 <div className={styles.allItens}>
                 {this.state.menuItens.map((item)=> <MenuItemCard hamburger={item} key={item.id.toString()} onClick={()=> this.myClick(item)}/>)}
                 </div>  
-                <div className={styles.itemDescription}>
+                
                 <MenuItemDescription hamburger={this.state.selectedHamburger}/>
-                </div>
+                
             </div>
         );
     }

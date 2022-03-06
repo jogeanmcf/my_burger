@@ -2,7 +2,7 @@ import styles from '../styles/Home.module.css'
 import React, { Component } from 'react';
 import Image from 'next/image';
 import Carousel from "react-simply-carousel";
-import db from '../shared/db.json'  
+import db from '../public/db.json'  
 
 const PromoCard = ({promoItem}) => {
     return (
@@ -97,7 +97,7 @@ class Promotions extends Component{
 const RightHomeSide = () => {
     return (
         <div className={styles.rightSide}>
-            <Image src='/hamb.png' width={350} height={250} alt=''></Image>
+            <Image src='/images/hamb.png' width={100} height={100} alt=''></Image>
             <div className={styles.promotions}>
                 <Promotions/>
             </div>

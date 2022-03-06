@@ -5,7 +5,7 @@
             "name": "Big Burger",
             "ingredients":"Pão, hamburguer, maionese, tomate, alface, ovo",
             "price": "R$ 19,99",
-            "image": "/shared/images/0.jpg",
+            "image": "/images/0.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -16,7 +16,7 @@
             "name": "Classic",
             "ingredients":"Pão, hamburguer, molho da casa, queijo prato",
             "price": "R$ 16,99",
-            "image": "/1.jpg",
+            "image": "/images/1.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -27,7 +27,7 @@
             "name": "Mega Fantastic",
             "ingredients":"Pão, hamburguer, maionese, bacon, calabreza, queijo qualho, queijo prato",
             "price": "R$ 20,99",
-            "image": "/2.jpg",
+            "image": "/images/2.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -38,7 +38,7 @@
             "name": "Magnum",
             "ingredients":"Pão, hamburguer, molho da casa, ovo, picles, cebola",
             "price": "R$ 21,99",
-            "image": "/images/3.jpg",
+            "image": "/images/3.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -49,7 +49,7 @@
             "name": "Hot Peper",
             "ingredients":"Pão, hamburguer, maionese apimentata, calabreza, queijo qualho",
             "price": "R$ 19,99",
-            "image": "/images/4.jpg",
+            "image": "/images/4.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -60,7 +60,7 @@
             "name": "Grand Cheff",
             "ingredients":"Pão, hamburguer, maionese, bacon, ovo, queijo mussarela",
             "price": "R$ 22,99",
-            "image": "/images/5.jpg",
+            "image": "/images/5.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -71,7 +71,7 @@
             "name": "Fabulous Vegetarian",
             "ingredients":"Pão, hamburguer de grão de bico, maionese, queijo prato, tomate, cebola roxa",
             "price": "R$ 18,99",
-            "image": "/images/6.jpg",
+            "image": "/images/6.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": true,
             "vegan": false
@@ -82,7 +82,7 @@
             "name": "Veg Prime",
             "ingredients":"Pão, Futuro Burger, maionese vegana, picles, tomate, alface, shimeji",
             "price": "R$ 19,99",
-            "image": "/images/7.jpg",
+            "image": "/images/7.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": true,
             "vegan": true
@@ -96,7 +96,7 @@
             "ingredients":"Pão, hamburguer, maionese, bacon, calabreza, queijo qualho, queijo prato",
             "price": "R$ 20,99",
             "newPrice": "R$ 17,99",
-            "image": "2.jpg",
+            "image": "/images/2.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -108,7 +108,7 @@
             "ingredients":"Pão, hamburguer, maionese apimentata, calabreza, queijo qualho",
             "price": "R$ 19,99",
             "newPrice": "R$ 17,99",
-            "image": "/images/4.jpg",
+            "image": "/images/4.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -120,7 +120,7 @@
             "ingredients":"Pão, hamburguer, maionese, bacon, ovo, queijo mussarela",
             "price": "R$ 22,99",
             "newPrice": "R$ 19,99",
-            "image": "/images/5.jpg",
+            "image": "/images/5.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": false,
             "vegan": false
@@ -132,7 +132,7 @@
             "ingredients":"Pão, Futuro Burger, maionese vegana, picles, tomate, alface, shimeji",
             "price": "R$ 19,99",
             "newPrice": "R$ 15,99",
-            "image": "/images/7.jpg",
+            "image": "/images/7.png",
             "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
             "vegetarian": true,
             "vegan": true
