@@ -11,8 +11,8 @@ const Navbar = () => {
                 <Link href='/'><a><li>Contato</li></a></Link>
             </ul>
             <div>
-                <button className={styles.btn2}>Pesquisar</button>
-                <button className={styles.btn1}>Login</button>
+                <Link href='/login'><button className={styles.btn1}>Login</button></Link>
+                
             </div>
         </nav>
     );

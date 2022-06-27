@@ -2,7 +2,6 @@
   "name": "my_burger",
   "version": "0.1.0",
   "private": true,
-   
   "extends": "next",
   "rules": {
     "react/no-unescaped-entities": "off",
@@ -15,15 +14,18 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
+    "daisyui": "^2.17.0",
+    "next": "^11.1.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-simply-carousel": "^5.1.4",
     "sass": "^1.48.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4"
   }
-  
 }
